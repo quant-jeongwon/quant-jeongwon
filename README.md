@@ -10,7 +10,7 @@ You can click the Preview link to take a look at your changes.
 
 --->
 # naver blog 검색
-'''
+```
 ##### 요청 URL를 작성, 요청결과를 json 형식으로 변환하여 return 한다. 
 import requests
 import json
@@ -38,5 +38,5 @@ def search(keyword):
         lst = lst + call(keyword, page *100 +1)['items']
     return lst
 
-'''
+```
 [네이브 블로그](http://blog.naver.com/5html)
